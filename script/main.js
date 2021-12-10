@@ -229,7 +229,7 @@ slides1[1].addEventListener('click', function(){
     lightBoxTextTitle.innerHTML = '제작 기간 : 디자인(10일), 퍼블리싱(7일)<br>2021.11.08 - 11.24';
     lightBoxTextDIs.innerHTML = '웹 퍼블리싱 국비 수료 후 처음으로 만든 웹사이트입니다.<br>제이쿼리를 사용하여 만들었으며 그 외 라이브러리는 사용하지 않았습니다.<br>디자인, 웹기획, 퍼블리싱 작업 모두 스스로 하였습니다.';
     lightBoxBtn.href = "http://www.symekorea.com";
-    DimBoxImage[0].setAttribute('src',lightBoxImage[2].getAttribute('src'));
+    DimBoxImage[0].setAttribute('src',lightBoxImage[1].getAttribute('src'));
 });
 
 slides1[2].addEventListener('click', function(){
@@ -237,7 +237,7 @@ slides1[2].addEventListener('click', function(){
     lightBoxTextTitle.innerHTML = '제작 기간 : 디자인(1시간), 퍼블리싱(1일)';
     lightBoxTextDIs.innerHTML = 'MYSQL 과 PHP를 이용하여 간단한 게시판을 만들었습니다. <br> 서버사이드 언어인 php를 공부하며 서버 작업 환경에서 코딩을 어떻게 해야 하는지 배울 수 있는 시간이었습니다.';
     lightBoxBtn.href = "http://codingju.dothome.co.kr/port1/index.php";
-    DimBoxImage[0].setAttribute('src',lightBoxImage[1].getAttribute('src'));
+    DimBoxImage[0].setAttribute('src',lightBoxImage[2].getAttribute('src'));
 });
 
 slides1[3].addEventListener('click', function(){
