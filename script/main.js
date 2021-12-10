@@ -273,7 +273,7 @@ slides2[1].addEventListener('click', function(){
 slides2[2].addEventListener('click', function(){
     lightBoxConHTitle.innerHTML = '키르시 웹 디자인';
     lightBoxConP.innerHTML = '국비과정 중 처음으로 웹 디자인을 했습니다.<br> 다시 보니 부족한 점이 참 많지만 <br>처음으로 한 디자인으로 의미가 있어서 포트폴리오에 추가했습니다.';
-    lightBoxConBtn.href = "./pdfFiles/design3.pdf";
+    lightBoxConBtn.href = "https://ilovecodin98.github.io/juyoung/kirsh/";
     lightBoxConImage.setAttribute('src',conImage[2].getAttribute('src'));
 });
 
